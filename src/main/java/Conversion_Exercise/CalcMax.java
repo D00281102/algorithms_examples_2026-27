@@ -17,7 +17,7 @@ public class CalcMax {
 
 
             }else{
-                System.out.println("Please enter a number not a letter");
+                System.out.println("Pleasey enter a number not a letter");
                 input.nextLine();
             }
         }
