@@ -14,7 +14,8 @@ public class dynamic_array
     public dynamic_array()
     {
         data = new String[10];
-        size = 0;
+        size = 3;
+
     }
 
     /**
@@ -28,7 +29,10 @@ public class dynamic_array
         return size;
     }
 
-    public int get(index){
-
+    public String get(int index) {
+        if (index < 0 || index >= size) {
+            throw new IndexOutOfBoundsException();
+        }
+        return data[index];
     }
 }
