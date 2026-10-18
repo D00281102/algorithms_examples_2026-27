@@ -16,4 +16,15 @@ public class dynamic_array
         data = new String[10];
         size = 0;
     }
+
+    /**
+     * Returning the number of elements stored in the list
+     *
+     */
+    public int size(){
+        /**
+         * return the number of elements in the list
+         */
+        return size;
+    }
 }
