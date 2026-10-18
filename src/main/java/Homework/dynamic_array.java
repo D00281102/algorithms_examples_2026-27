@@ -27,4 +27,8 @@ public class dynamic_array
          */
         return size;
     }
+
+    public int get(index){
+
+    }
 }
