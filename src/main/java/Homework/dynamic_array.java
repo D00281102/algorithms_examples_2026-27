@@ -42,4 +42,14 @@ public class dynamic_array
         }
         return data[index];
     }
+
+    /**
+     * @param index
+     * provide an element and searches through and returns an int of the index position of the element
+     * @return
+     * return the index of thr elemet entered
+     */
+    public String indexOf(String index){
+
+    }
 }
