@@ -29,6 +29,13 @@ public class dynamic_array
         return size;
     }
 
+    /**
+     *
+     * @param index
+     * Returning the data in the index specified
+     * @return
+     * data in the index
+     */
     public String get(int index) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException();
