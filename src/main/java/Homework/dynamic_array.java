@@ -49,7 +49,7 @@ public class dynamic_array
      * @return
      * return the index of thr elemet entered
      */
-    public String indexOf(String index){
+    public int indexOf(String index){
 
     }
 }
